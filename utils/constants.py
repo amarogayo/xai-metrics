@@ -3,10 +3,10 @@ SUPPORTED_CIFAR_10_MODELS = []
 
 SUPPORTED_MODELS = SUPPORTED_IMAGENET_MODELS + SUPPORTED_CIFAR_10_MODELS
 
-DEFAULT_IMAGENET_DIR = "/dataP/gst/imagenet"
-DEFAULT_CIFAR_10_DIR = "/dataP/data/deeplearning/image_classification/cifar10"
+DEFAULT_IMAGENET_DIR = "/data/imagenet"
+DEFAULT_CIFAR_10_DIR = "/data/data/deeplearning/image_classification/cifar10"
 
-DEFAULT_MODEL_DIR = "/dataP/gst/pytorch_pretrained_models"
+DEFAULT_MODEL_DIR = "/data/pytorch_pretrained_models"
 
 SUPPORTED_TRANSFORMS = [
     "color_jitter",
