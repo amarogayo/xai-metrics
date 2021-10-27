@@ -58,7 +58,7 @@ parser.add_argument(
     "--output_dir",
     type=str,
     help="where to store the output heatmaps",
-    default="/dataT/gst/exp_results",
+    default="/dataT/exp_results",
 )
 parser.add_argument(
     "--model_dir",
@@ -114,7 +114,7 @@ if __name__ == "__main__":
     # get the explainer object
     explainer = get_explainer(args.explainer, args.model, args.model_dir)
 
-    if args.explainer == "lime":  # LIME only takes one by one :(
+    if args.explainer == "lime":  # LIME only takes one by one 
         batch_size = 1
 
         # get the image preproc

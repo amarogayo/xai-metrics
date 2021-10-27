@@ -22,8 +22,6 @@ This is the pytorch implementation of ["Axiomatic Attribution for Deep Networks"
 python main.py --cuda --model-type='inception' --img='01.jpg'
 
 ```
-## Results
-Results are slightly different from the original paper, it may have some bugs or need to do some adjustments. I will keep updating it, any contributions are welcome!
 ### Inception-v3
 ![inception](figures/inception.png)
 ### ResNet-18

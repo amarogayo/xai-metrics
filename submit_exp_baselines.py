@@ -1,4 +1,4 @@
-# code to create bsub scripts to submit to ZHC2 for explainers
+# code to create bsub scripts to submit for explainers
 import os
 import itertools
 # from utils import maybe_create_dir
