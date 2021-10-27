@@ -1,4 +1,4 @@
-# code to create bsub scripts to submit to ZHC2
+# code to create bsub scripts to submit to cluster
 import os
 from utils import maybe_create_dir
 import numpy as np
